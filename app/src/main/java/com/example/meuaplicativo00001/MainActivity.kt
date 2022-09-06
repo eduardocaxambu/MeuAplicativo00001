@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, MainActivity7::class.java)
         startActivity(intent)
     }
+
     fun chama007(view: View) {
         val intent = Intent(this, MainActivity8::class.java)
         startActivity(intent)
